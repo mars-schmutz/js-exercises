@@ -7,8 +7,8 @@ const programs = [
 ];
 
 const list = document.getElementById("programs");
-for (let i = 0; i < porgrams.length; i++) {
+for (let i = 0; i < programs.length; i++) {
     let li = document.createElement("li");
     li.innerText = programs[0];
-    ul.appendChild(li);
+    list.appendChild(li);
 }
