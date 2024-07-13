@@ -1,4 +1,4 @@
-let p = document.getElementByID("color-change");
+let p = document.getElementById("colorChange");
 
 p.addEventListener("click", () => {
     p.style.color = "blue";
