@@ -1,5 +1,5 @@
 function toggleVisibility() {
-    let text = document.getElementByID("toggle-display");
+    var text = document.getElementById("toggleDisplay");
     if (text.style.display === "none") {
         text.style.display = "block";
     } else {

@@ -1,6 +1,6 @@
 const btn = document.getElementById("change-btn");
-const p = document.getElementById("txt");
+const p = document.getElementById("text");
 
-button.addEventListener("click", () => {
+btn.addEventListener("click", () => {
     p.innerText = "I've been changed!";
 });
